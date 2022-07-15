@@ -108,6 +108,39 @@
   margin-left: 0.5rem;
 }
 
+.table_card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.table {
+  flex: 0 0 350px;
+  height: auto;
+  overflow: hidden;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.15);
+}
+.table h2 {
+  font-size: 1.3rem;
+}
+.table img {
+  height: 170px;
+  width: auto;
+  border-radius: 10px;
+}
+.table p {
+  text-align: justify;
+  color: #777;
+}
+.stock p {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
