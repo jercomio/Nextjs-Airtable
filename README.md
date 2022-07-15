@@ -26,8 +26,8 @@ Le template Airtable utilisé dans ce repository est: [Product catalog](https://
 Dans votre application Airtable, ouvrez la documentation API relative à votre Workspace utilisé.
 
 Créer un fichier .env et renseignez les clés comme suit:
-`
+```
 AIRTABLE_API_KEY=YOUR API KEY
 AIRTABLE_BASE_ID=YOUR BASE ID
 AIRTABLE_TABLE_NAME=Furniture
-`
+```
