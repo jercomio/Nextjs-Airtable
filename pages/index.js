@@ -21,7 +21,7 @@ export default function Home({ dataTable }) {
             {dataTable.map((item) => (
               <li key={item.id} className={styles.table}>
                 <h2>{item.fields.Name}</h2>
-                <img src={item.fields.Images[0].thumbnails.large.url} alt={item.fields.filename} />
+                <Image src={item.fields.Images[0].thumbnails.large.url} height={170} width={'auto'} alt={item.fields.filename} />
                 <p>{item.fields.Description}</p>
                 <h5>{item.fields.UnitCost}$</h5>
                 <div className={styles.stock}>
